@@ -25,7 +25,7 @@ app.set('port',port);
 //LLAMANDO A LAS RUTAS
 users(app);
 
-server.listen(3000, '192.168.100.6' || 'localhost', function(){     //ip de mi pc
+server.listen(3000, '192.168.100.6' || 'localhost', function(){     //AQUI PONER IP DE TU PC
     console.log('Aplicacion de NodeJS ' + port + 'Iniciada...')
 });
 
